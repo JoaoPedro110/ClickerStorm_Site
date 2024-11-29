@@ -1,0 +1,80 @@
+body {
+    background-color: aquamarine;
+    font-family:cursive;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 50px;
+    color:rgba(0, 0, 0, 0.753);
+    text-shadow: 6px 3px 25px #2b00ff , 0 0 5px rgb(255, 0, 0);
+    margin-bottom: 35px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.753);
+    text-shadow: 6px 3px 25px #2b00ff , 0 0 5px rgb(255, 0, 0);
+    font-size: 40px;
+}
+
+main {
+    text-align: center;
+}
+
+.tabuleiro div input{
+    width: 256px;
+    height: 256px;
+    border:1px solid black;
+    margin:2px;
+    border-radius: 6px;
+    font-size: 30px;
+    cursor:pointer;
+}
+
+.containerPersonagens div input {
+    width: 256px;
+    height: 256px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: gray;
+    align-items: center;
+}
+
+/*Tamanho das imagens*/
+
+
+/*Cores dos Quadrados*/
+
+.branco[type=button] {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.verde[type=button] {
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color:green;
+    color: black;
+}
+
+.vermelho[type=button] {
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+
+.branco-amarelo[type=button] {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color:yellow;
+}
+

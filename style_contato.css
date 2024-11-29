@@ -1,0 +1,114 @@
+body {
+    background-image: url(img/Background2.png);
+    background-size: cover;
+    font-family:Inter;
+    font-weight: 700;
+}
+
+/*Links*/
+a {
+    color: rgb(255, 255, 255);
+}
+/*Fontes*/
+h2 {
+    font-size: 33px;
+    padding-bottom: -7px;
+    color:white;
+}
+
+h3 {
+    font-size: 15px;
+    color:rgb(145, 145, 145);
+}
+
+/*Trancisão*/
+.transi {
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px #1f1f1f;
+  }
+  .transi:hover {
+    transform: translateY(8px);
+  }
+
+/*Divs Principais*/
+.principal {
+    padding-top: 10px;
+    resize: none;
+    background:rgb(49, 49, 49);
+    font-family:Inter;
+    border: 0;
+    border: none;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+    width: 500px;
+    margin-top: 85px;
+}
+
+.segundario {
+    border-top: 3px solid #2626265a;
+}
+
+
+/*Botoes*/
+input, textarea {
+    background-color: #000000;
+    border: 1px solid #525252;
+    border-bottom: 1px solid white;
+    color: #ffffff;
+}
+
+fieldset {
+    border:none;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 0.5%;
+    margin: 0.5em auto;
+    height: 2em;
+    font-size: 1rem;
+    background-color:rgb(49, 49, 49);
+    border-color:#ffffff;
+    min-width: 150px;
+    border-radius: 12px;
+  }
+
+input[type="text"] {
+    width: 35%;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    align-items: center;
+    width: 350px;
+  }
+
+input[type="email"] {
+    width: 35%;
+    margin-top: 1rem;
+    margin-bottom: 1em;
+    align-items: center;
+    width: 350px;
+  }
+
+/*ID*/
+/*Botão da Senha*/
+#Email {
+    font-size: 17px;
+    width: 350px;
+}
+/*Botão do Usuario*/
+#Nome_de_Usuario {
+    font-size: 17px;
+}
+/*Botão da Mensagem*/
+#Mensagem {
+    height: 135px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 17px;
+    resize: none;
+}
+

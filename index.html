@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Storm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_home.css">
+    <script src="JavaS.js"></script>
+    <link rel="icon" href="img/Logo_beatriz_limpa.png">
+</head>
+<body>
+    <!-- Barra de navegação vertical -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#"><img src="img/Home.png" alt="Imagem ícone Home"> Home</a>
+            <a href="perfil.html"><img src="img/Perfil.png" alt="Imagem ícone Perfil"> Seu perfil</a>
+            <a href="#"><img src="img/Alta.png" alt="Imagem ícone Jogos em alta"> Jogos em alta</a>
+            <a href="contato.html"><img src="img/Contato.png" alt="Imagem ícone Contato"> Contato</a>
+            <a href="#"><img src="img/Lupa.png" alt="Imagem ícone Pesquisa"> Buscar jogos</a>
+            <a href="#"><img src="img/Vector.png" alt="Imagem ícone configurações"> Configurações</a>
+        </div>
+    <!-- Barra de navegação horizontal-->
+        <div class="horizontal-nav">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="margem transi" src="img/Logo_beatriz_limpa.png" alt="Imagem da logo do site" height="112"></span>
+            <div class="opções">
+                <a class="transi" href="#">• Aventura</a>
+                <a class="transi" href="#">• Ação</a>
+                <a class="transi" href="#">• Terror</a>
+                <form>
+                    <select id="referrer" name="referrer" required>
+                        <option class="temas2" value="0">• Outras Categorias</option>
+                        <option class="temas2" value="1">RPG</option>
+                        <option class="temas2" value="2">Estratégia</option>
+                        <option class="temas2" value="3">Simulação</option>
+                    </select>
+                </form>
+                <div class="botões">
+                    <a style="float:right" class="transi bordinha" href="cadastro.html">Cadastre-se</a>
+                    <a style="float:right" class="transi bordinha2" href="Login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    <!-- Jogos 1-->
+    <div class="main">
+        <div class="tudão borda" >   
+            <div class="Jogo_da_cobrinha img_cobrinha">
+                <a href="./Games2/Jogo_da_Cobra/IndexCobra.html"><img class="transi" src="img/jiboia_games.png" alt="Imagem do jogo campo minado"></a>
+            </div>
+            <div class="demais-jogos">
+                <div class="j1-j2">
+                    <a href="./Games2/Jogo_da _Velha/indexVelha.html"><img class="transi" src="img/Velha_logo.png" alt="Imagem do jogo da cobrinha"></a>
+                   <a href="./Games2/Campo_Minado/IndexMinado.html"><img class="transi" src="img/Campo_minado_logo.png" alt="Imagem do jogo Campo Minado"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
